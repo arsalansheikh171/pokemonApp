@@ -1,0 +1,23 @@
+import React from "react";
+
+const TableComponent = () =>{
+    return(
+        <br />
+    
+    <h3> Output in Table Form </h3>
+    <table className="table table-hover">
+    <thead>
+      <tr>
+        <th>Pokemon Name</th>
+        <th>Moves</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{name}</td>
+        <td>{moves}</td>
+      </tr>
+    </tbody>
+     </table>
+    );
+}
